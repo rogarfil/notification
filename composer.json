@@ -1,0 +1,26 @@
+{
+    "name": "rogar/notification",
+    "description": "This is a library that uses composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rogarfil",
+            "email": "rogarfil@yahoo.com.br",
+			"homepage": "http://www.rogarfil.com.br",
+			"role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.2.0"
+    },
+	"config": {
+		"vendor-dir": "lib_ext"
+	},
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}

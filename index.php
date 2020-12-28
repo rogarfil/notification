@@ -7,6 +7,6 @@ use Notification\Email;
 //var_dump($email);
 
 $novoEmail = new Email;
-$novoEmail->sendMail("Assunto de Teste", "<p>Esse é um e-mail de <b>teste</b>!</p>", "rogarfil@gmail.com", "Gmail Mandou", "rogarfil@yahoo.com.br", "Rogarfil");
+$novoEmail->sendMail("Assunto de Teste", "<p>Esse é um e-mail de <b>teste</b>!</p>", "canutampp@gmail.com", "Gustavo Web", "rogarfil@hotmail.com", "Gustavo");
 
 var_dump($novoEmail);
